@@ -1,0 +1,67 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+h1{
+  font-size: 50px;
+  text-align:center;
+  /*
+  color: white;
+  background-color: green;
+  border:solid #0000ff;
+  */
+}
+/*フォーム全体を中央へ*/
+.form{
+  display: flex;
+  justify-content: center; 	
+  border: solid 2px #f0f0f0;
+  max-width: 300px;
+  height:50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  
+  }
+/*入力フォーム*/
+.sbox{ 
+  width:240px ;
+  padding: 0 15px;
+  border-radius: initial;
+  background: transparent;
+  border: none;
+  outline: 0;
+  font-size: 25px;
+}
+/*検索ボタン*/
+.sbtn{
+  width: 50px;
+  background:transparent;
+  border-radius: initial;
+  border:none;
+  color:#31bf31;
+  font-size:18px;
+  cursor: pointer;
+}
+/*
+.sbtn:hover{
+background: #7fbfff;
+color:#fff;
+}*/
+
+.a{ /*緑枠*/
+  /*text-align: center;*/
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  border:solid #31bf31;
+  border-radius: 10px;
+  width: 300px;
+  height: 120px;
+}
+.name{
+  font-size: 30px;
+}
+.situ{
+  vertical-align: ;
+}
